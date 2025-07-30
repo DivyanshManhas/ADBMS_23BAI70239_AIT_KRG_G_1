@@ -42,7 +42,7 @@ VALUES
 
 
 SELECT
-    Q.ID, Q.YEAR, ISNULL(Y.NPV, 0)
+    Q.ID, Q.YEAR, ISNULL(Y.NPV, 0) as NPV
 From 
     Queries as Q
 LEFT OUTER JOIN
