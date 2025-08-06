@@ -49,3 +49,4 @@ LEFT OUTER JOIN
     Year_tbl as Y
 ON
     Q.ID = Y.ID AND Q.YEAR = Y.YEAR;
+
